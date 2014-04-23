@@ -1,0 +1,12 @@
+<h3>All of out creatures!!</h3>
+  <%= @creatures.reverse.each do  |creature| %>
+
+<div>
+  <ul>
+    <li> Name: <%= creature[:name] %></li> <br>
+    <li>Description: <%= creature[:description] %></li>
+    <li><a href="/creatures/<%= creature[:id] %>/edit">Edit</a></li>
+  </ul>
+</div>
+
+  <% end %> 

@@ -1,0 +1,10 @@
+<h3>Edit your CrEaTuRe</h3>
+
+<form action="/creature" method="post">
+  <input type="text" name="<%= @creature["name"] %>" value="<%= @creature.name %>">
+  <input type="text" name="creature[description]" value="<%= @creature.description %>">
+
+  <%#= token_tag from_authenticity_token %>
+
+  <button>Update the creature </button>
+</form>

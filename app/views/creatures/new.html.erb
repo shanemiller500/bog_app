@@ -1,0 +1,17 @@
+
+
+
+<form action="/creatures" method="post">
+<br>
+
+<input type="text" name="creature[name]"placeholder="Creature Name"><br><br>
+
+  description: <br> <textarea name="creature[description]"></textarea><br>
+
+   <%= token_tag form_authenticity_token %>
+
+  <button>Save Creature</button><br>
+
+</form>
+
+<br><a href="/creatures"> Show me a list of the creatures</a>

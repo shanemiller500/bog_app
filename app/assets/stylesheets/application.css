@@ -11,3 +11,10 @@
  *= require_self
  *= require_tree .
  */
+
+
+body {
+  
+  background-image: url ("http://www.dec.ny.gov/images/administration_images/wwlogoweblarge.jpg");
+  
+}
